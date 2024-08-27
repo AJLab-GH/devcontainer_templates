@@ -58,14 +58,14 @@ jobs:
         uses: docker/login-action@9780b0c442fbb1117ed29e0efdff1e18412f7567
         with:
           registry: "ghcr.io"
-          username: ${{ github.repository_owner }}
+          username: ajlab-gh
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build devcontainer
         uses: devcontainers/ci@a56d055efecd725e8cfe370543b6071b79989cc8
         with:
-          imageName: ghcr.io/ajlabdocker/devcontainer
-          cacheFrom: ghcr.io/ajlabdocker/devcontainer
+          imageName: ghcr.io/ajlab-gh/devcontainer
+          cacheFrom: ghcr.io/ajlab-gh/devcontainer
           subFolder: src/devcontainer
           platform: linux/amd64
           push: always
