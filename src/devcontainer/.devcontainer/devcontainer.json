@@ -105,7 +105,6 @@
     "ghcr.io/devcontainers-contrib/features/qrcode": {},
     "ghcr.io/devcontainers-contrib/features/shfmt": {},
     "ghcr.io/devcontainers-contrib/features/terraform-docs": {},
-    "ghcr.io/devcontainers-contrib/features/terrascan:1.0.1": {},
     "ghcr.io/devcontainers-contrib/features/tmux-apt-get": {},
     "ghcr.io/devcontainers-contrib/features/vscode-cli": {},
     "ghcr.io/devcontainers-contrib/features/vscode-server": {},
@@ -143,6 +142,7 @@
       "installTools": true,
       "version": "3.12"
     },
+    "ghcr.io/ajlab-gh/devcontainer_features/terrascan:latest": {},
     "ghcr.io/dhoeric/features/terraformer": {},
     "ghcr.io/dhoeric/features/tfsec": {},
     "ghcr.io/dhoeric/features/trivy": {},
