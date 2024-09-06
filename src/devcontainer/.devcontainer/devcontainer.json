@@ -222,6 +222,8 @@
     "ghcr.io/robinmordasiewicz/features/yq": {},
     "ghcr.io/robinmordasiewicz/features/zzz-preinstall-extensions": {
       "extensions": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
         "anderson.vscode-extension-paste-image",
         "alexcvzz.vscode-sqlite",
         "continue.continue",
